@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Parisienne&display=swap');
+
+body{
+	text-align:center;
+}
+a {
+    padding: 12px;
+    text-decoration: none;
+    font-family: 'Poiret One';
+    font-size: 1rem;
+}
+a:hover {
+     background-color: black;
+     color: white;
+     border: solid;
+    }
+.Top-nav {
+    flex-flow: row nowrap;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;		
+}
+.middle-section {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    font-size: 2rem;
+    align-items: center;
+    align-content: center;
+    margin: 9vh;   
+}
+.google-logo {   
+    text-decoration: none;
+    font-family: 'Parisienne', cursive;
+    font-size: 2rem;
+}
+.search-bar, .wrapper, .button{
+	font-family: 'Poiret One';
+	border:none; 
+	text-align: center;
+}
+.search-bar {
+    border-radius: 50px;
+    border: solid;
+    background-color: white;
+    height: 8vh;
+    width: 40vw;
+    font-size:1rem;
+    outline:none;
+	box-shadow: 5px 5px;
+}
+.wrapper{
+   margin-bottom:10px;
+    border-radius:50px;
+    width:40vw; 
+}
+.button {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    padding:10px;
+    margin:0 10px;
+}
+.footer-nav {
+    position: fixed;
+    bottom: 0;
+    width: 100vw; 
+}
+
+.footer-nav-btn {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;  
+}
